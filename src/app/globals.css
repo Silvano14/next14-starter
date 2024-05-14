@@ -23,9 +23,9 @@ a {
 }
 
 .container {
-  width: 1536px;
+  width: 100vw;
   margin: auto;
-  padding-left: 50px;
+  padding-inline: 50px;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
