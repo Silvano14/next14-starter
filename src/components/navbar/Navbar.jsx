@@ -1,10 +1,13 @@
+import Link from "next/link";
 import Links from "./links/Links";
 import styles from "./navbar.module.css";
 
 function Navbar() {
   return (
     <div className={styles.container}>
-      <div>Logo</div>
+      <Link className={styles.logo} href={"/"}>
+        Logo
+      </Link>
       <div>
         <Links></Links>
       </div>
